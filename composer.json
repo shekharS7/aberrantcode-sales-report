@@ -1,0 +1,24 @@
+{
+    "name": "bmsindia/module-report",
+    "description": "create a new product attribute",
+    "type": "magento2-module",
+	"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Shekhar Suman",
+            "email": "shekharsuman97@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "php": "~8.1.0||~8.2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BmsIndia\\Report\\": ""
+        }
+    }
+}
