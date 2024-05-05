@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="BmsIndia_Report::bmsindia" title="BmsIndia" translate="title" module="BmsIndia_Report" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="BmsIndia_Report" resource="BmsIndia_Report::bmsindia"/>
+      <add id="BmsIndia_Report::bmsindia_report" title="Report" translate="title" module="BmsIndia_Report" parent="BmsIndia_Report::bmsindia" sortOrder="10" dependsOnModule="BmsIndia_Report" action="bms/report" resource="BmsIndia_Report::bmsindia"/>
+    </menu>
+</config>
