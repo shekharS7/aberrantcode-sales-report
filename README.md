@@ -1,7 +1,6 @@
 # Module AbberrantCode Sales Report
 
-
-### Type 1: Zip file
+## Type 1: Zip file
 
  - Unzip the zip file in `app/code/AberrantCode`
  - Enable the module by running `php bin/magento module:enable AberrantCode_SalesReport`
@@ -9,7 +8,7 @@
  - Compile by running `php bin/magento setup:di:compile`
  - Flush the cache by running `php bin/magento cache:flush`
 
-### Type 2: Composer
+## Type 2: Composer
 ```
 - Install the module composer by running `composer require aberrantcode/sales-report`
 - Apply database updates by running `php bin/magento setup:upgrade`
