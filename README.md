@@ -3,30 +3,15 @@
 
 ### Type 1: Zip file
 
- - Unzip the zip file in `app/code/BmsIndia`
- - Enable the module by running `php bin/magento module:enable BmsIndia_Report`
+ - Unzip the zip file in `app/code/AberrantCode`
+ - Enable the module by running `php bin/magento module:enable AberrantCode_SalesReport`
  - Apply database updates by running `php bin/magento setup:upgrade`
  - Compile by running `php bin/magento setup:di:compile`
  - Flush the cache by running `php bin/magento cache:flush`
 
 ### Type 2: Composer
-
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - own VCS repository so that composer can find it. In the repositories section of the composer.json file of
-the Magento 2 project add the following:
 ```
-"repositories": {
-  "mycustommodule": {
-    "type": "vcs",
-    "url": "https://github.com/shekharS7/bmsindia-report"
-  }
-}
-```
-- Install the module composer by running `composer require bmsindia/module-report`
+- Install the module composer by running `composer require aberrantcode/sales-report`
 - Apply database updates by running `php bin/magento setup:upgrade`
 - Compile by running `php bin/magento setup:di:compile`
 
@@ -40,7 +25,7 @@ the Magento 2 project add the following:
 
 ## Specifications
     Menu 
-    Content -> BmsIndia -> Report
+    Content -> AberrantCode -> Report
     BMS India Report table will display for forcast Sales report
     number of product = number of line item with quantity
 
