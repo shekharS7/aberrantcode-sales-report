@@ -2,10 +2,11 @@
     "name": "aberrantcode/sales-report",
     "description": "create a new product attribute",
     "type": "magento2-module",
-     "version": "1.0.0",
-	"licence": ["MIT",
-		"OSL-3.0"
-	],
+    "version": "1.0.0",
+    "licence": [
+	"MIT",
+	"OSL-3.0"
+     ],
     "authors": [
         {
             "name": "Shekhar Suman",
@@ -23,5 +24,11 @@
         "psr-4": {
             "AberrantCode\\SalesReport\\": ""
         }
+    },
+    "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.magento.com/"
     }
+    ]
 }
