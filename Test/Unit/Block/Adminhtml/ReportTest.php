@@ -1,12 +1,20 @@
 <?php
-
-namespace BmsIndia\Report\Test\Unit\Block\Adminhtml;
+/**
+ * Copyright © Shekhar Suman, 2024. All rights reserved.
+ * See COPYING.txt for license details.
+ * 
+ * @package     AberrantCode_SalesReport
+ * @version     1.0.0
+ * @license     MIT License (http://opensource.org/licenses/MIT)
+ * @autor       Shekhar Suman
+ */
+namespace AberrantCode\SalesReport\Test\Unit\Block\Adminhtml;
 
 use PHPUnit\Framework\TestCase;
 use Magento\Backend\Block\Template\Context;
 use Magento\Sales\Model\ResourceModel\Order\CollectionFactory;
 use Magento\Eav\Api\AttributeRepositoryInterface;
-use BmsIndia\Report\Block\Adminhtml\Report;
+use AberrantCode\SalesReport\Block\Adminhtml\Report;
 
 class ReportTest extends TestCase
 {
