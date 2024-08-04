@@ -1,11 +1,16 @@
 <?php
 /**
- * Copyright © Boostmyshop All rights reserved.
+ * Copyright © Shekhar Suman, 2024. All rights reserved.
  * See COPYING.txt for license details.
+ * 
+ * @package     AberrantCode_SalesReport
+ * @version     1.0.0
+ * @license     MIT License (http://opensource.org/licenses/MIT)
+ * @autor       Shekhar Suman
  */
 declare(strict_types=1);
 
-namespace BmsIndia\Report\Model\Product\Attribute\Source;
+namespace AberrantCode\SalesReport\Model\Product\Attribute\Source;
 
 class ProductCategory extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSource
 {
