@@ -1,11 +1,16 @@
 <?php
 /**
- * Copyright © Boostmyshop All rights reserved.
+ * Copyright © Shekhar Suman, 2024. All rights reserved.
  * See COPYING.txt for license details.
+ * 
+ * @package     AberrantCode_SalesReport
+ * @version     1.0.0
+ * @license     MIT License (http://opensource.org/licenses/MIT)
+ * @autor       Shekhar Suman
  */
 declare(strict_types=1);
 
-namespace BmsIndia\Report\Setup\Patch\Data;
+namespace AberrantCode\SalesReport\Setup\Patch\Data;
 
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
 use Magento\Eav\Setup\EavSetup;
@@ -55,7 +60,7 @@ class AddProductCategoryProductAttribute implements DataPatchInterface, PatchRev
                 'type' => 'int',
                 'label' => 'Product Category',
                 'input' => 'select',
-                'source' => \BmsIndia\Report\Model\Product\Attribute\Source\ProductCategory::class,
+                'source' => \AberrantCode\SalesReport\Model\Product\Attribute\Source\ProductCategory::class,
                 'frontend' => '',
                 'required' => true,
                 'backend' => '',
