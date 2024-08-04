@@ -1,5 +1,14 @@
 <?php
-namespace BmsIndia\Report\Controller\Adminhtml\Report;
+/**
+ * Copyright © Shekhar Suman, 2024. All rights reserved.
+ * See COPYING.txt for license details.
+ * 
+ * @package     AberrantCode_SalesReport
+ * @version     1.0.0
+ * @license     MIT License (http://opensource.org/licenses/MIT)
+ * @autor       Shekhar Suman
+ */
+namespace AberrantCode\SalesReport\Controller\Adminhtml\Report;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -12,7 +21,7 @@ use Magento\Framework\View\Result\PageFactory;
  */
 class Index extends Action implements HttpGetActionInterface
 {
-    const MENU_ID = 'BmsIndia_Report::bmsindia_report';
+    const MENU_ID = 'AberrantCode_SalesReport::salesreport';
 
     /**
      * @var PageFactory
@@ -35,7 +44,7 @@ class Index extends Action implements HttpGetActionInterface
     }
 
     /**
-     * Load the page defined in view/adminhtml/layout/bms_report_index.xml
+     * Load the page defined in view/adminhtml/layout/aberrantcode_salesreport_index.xml
      *
      * @return Page
      */
@@ -43,7 +52,7 @@ class Index extends Action implements HttpGetActionInterface
     {
         $resultPage = $this->resultPageFactory->create();
         $resultPage->setActiveMenu(static::MENU_ID);
-        $resultPage->getConfig()->getTitle()->prepend(__('Bms Report'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Aberrant Sales Report'));
 
         return $resultPage;
     }
