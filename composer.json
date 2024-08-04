@@ -3,7 +3,7 @@
     "description": "create a new product attribute",
     "type": "magento2-module",
     "version": "1.0.0",
-    "licence": [
+    "license": [
 	"MIT",
 	"OSL-3.0"
      ],
