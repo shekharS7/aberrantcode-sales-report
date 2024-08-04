@@ -13,6 +13,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
       <add id="AberrantCode_SalesReport::aberrantcode" title="Aberrant" translate="title" module="AberrantCode_SalesReport" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="AberrantCode_SalesReport" resource="AberrantCode_SalesReport::aberrantcode"/>
-      <add id="AberrantCode_SalesReport::ac_salesreport" title="Report" translate="title" module="AberrantCode_SalesReport" parent="AberrantCode_SalesReport::aberrantcode" sortOrder="10" dependsOnModule="AberrantCode_SalesReport" action="aberrantcode/salesreport" resource="AberrantCode_SalesReport::aberrantcode"/>
+      <add id="AberrantCode_SalesReport::ac_salesreport" title="Report" translate="title" module="AberrantCode_SalesReport" parent="AberrantCode_SalesReport::aberrantcode" sortOrder="10" dependsOnModule="AberrantCode_SalesReport" action="aberrant/salesreport" resource="AberrantCode_SalesReport::aberrantcode"/>
     </menu>
 </config>
